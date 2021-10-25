@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1250"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EDABFFB1269E3FA3008F1806"
+               BuildableName = "CouchbaseLiteWrapperDemo.app"
+               BlueprintName = "CouchbaseLiteWrapperDemo"
+               ReferencedContainer = "container:CouchbaseLiteWrapperDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "CouchbaseLiteWrapperDemo"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "CouchbaseLiteWrapperDemo"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EDABFFB1269E3FA3008F1806"
+            BuildableName = "CouchbaseLiteWrapperDemo.app"
+            BlueprintName = "CouchbaseLiteWrapperDemo"
+            ReferencedContainer = "container:CouchbaseLiteWrapperDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "CouchbaseLiteWrapperDemo"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EDABFFB1269E3FA3008F1806"
+            BuildableName = "CouchbaseLiteWrapperDemo.app"
+            BlueprintName = "CouchbaseLiteWrapperDemo"
+            ReferencedContainer = "container:CouchbaseLiteWrapperDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "CouchbaseLiteWrapperDemo">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "CouchbaseLiteWrapperDemo"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED2D0555272741EF0020DFDF /* CouchbaseLiteWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = ED2D0554272741EF0020DFDF /* CouchbaseLiteWrapper */; };
+		EDABFFB6269E3FA3008F1806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDABFFB5269E3FA3008F1806 /* AppDelegate.swift */; };
+		EDABFFB8269E3FA3008F1806 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDABFFB7269E3FA3008F1806 /* SceneDelegate.swift */; };
+		EDABFFBA269E3FA3008F1806 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDABFFB9269E3FA3008F1806 /* DemoViewController.swift */; };
+		EDABFFBD269E3FA3008F1806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDABFFBB269E3FA3008F1806 /* Main.storyboard */; };
+		EDABFFBF269E3FA4008F1806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDABFFBE269E3FA4008F1806 /* Assets.xcassets */; };
+		EDABFFC2269E3FA4008F1806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDABFFC0269E3FA4008F1806 /* LaunchScreen.storyboard */; };
+		EDB2412F26B3597700FC5480 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB2412E26B3597700FC5480 /* UserTableViewCell.swift */; };
+		EDB2413126B359C700FC5480 /* DemoTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB2413026B359C700FC5480 /* DemoTableView.swift */; };
+		EDB2413426B35B8600FC5480 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB2413326B35B8600FC5480 /* UserStore.swift */; };
+		EDB2413626B35BAE00FC5480 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB2413526B35BAE00FC5480 /* User.swift */; };
+		EDB2413826B35EAB00FC5480 /* ArrayRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB2413726B35EAA00FC5480 /* ArrayRange.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDABFFB2269E3FA3008F1806 /* CouchbaseLiteWrapperDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CouchbaseLiteWrapperDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDABFFB5269E3FA3008F1806 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDABFFB7269E3FA3008F1806 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDABFFB9269E3FA3008F1806 /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		EDABFFBC269E3FA3008F1806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDABFFBE269E3FA4008F1806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDABFFC1269E3FA4008F1806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDABFFC3269E3FA4008F1806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB2412E26B3597700FC5480 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		EDB2413026B359C700FC5480 /* DemoTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableView.swift; sourceTree = "<group>"; };
+		EDB2413326B35B8600FC5480 /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
+		EDB2413526B35BAE00FC5480 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EDB2413726B35EAA00FC5480 /* ArrayRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayRange.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDABFFAF269E3FA3008F1806 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2D0555272741EF0020DFDF /* CouchbaseLiteWrapper in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDABFFA9269E3FA3008F1806 = {
+			isa = PBXGroup;
+			children = (
+				EDABFFB4269E3FA3008F1806 /* CouchbaseLiteWrapperDemo */,
+				EDABFFB3269E3FA3008F1806 /* Products */,
+				EDF1B8EB26F2B1D20097DF23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDABFFB3269E3FA3008F1806 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDABFFB2269E3FA3008F1806 /* CouchbaseLiteWrapperDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDABFFB4269E3FA3008F1806 /* CouchbaseLiteWrapperDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EDB2413226B359D100FC5480 /* Demo */,
+				EDABFFB5269E3FA3008F1806 /* AppDelegate.swift */,
+				EDABFFB7269E3FA3008F1806 /* SceneDelegate.swift */,
+				EDABFFBB269E3FA3008F1806 /* Main.storyboard */,
+				EDABFFBE269E3FA4008F1806 /* Assets.xcassets */,
+				EDABFFC0269E3FA4008F1806 /* LaunchScreen.storyboard */,
+				EDABFFC3269E3FA4008F1806 /* Info.plist */,
+			);
+			path = CouchbaseLiteWrapperDemo;
+			sourceTree = "<group>";
+		};
+		EDB2413226B359D100FC5480 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				EDB2413726B35EAA00FC5480 /* ArrayRange.swift */,
+				EDB2413026B359C700FC5480 /* DemoTableView.swift */,
+				EDABFFB9269E3FA3008F1806 /* DemoViewController.swift */,
+				EDB2413526B35BAE00FC5480 /* User.swift */,
+				EDB2413326B35B8600FC5480 /* UserStore.swift */,
+				EDB2412E26B3597700FC5480 /* UserTableViewCell.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		EDF1B8EB26F2B1D20097DF23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDABFFB1269E3FA3008F1806 /* CouchbaseLiteWrapperDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDABFFC6269E3FA4008F1806 /* Build configuration list for PBXNativeTarget "CouchbaseLiteWrapperDemo" */;
+			buildPhases = (
+				EDABFFAE269E3FA3008F1806 /* Sources */,
+				EDABFFAF269E3FA3008F1806 /* Frameworks */,
+				EDABFFB0269E3FA3008F1806 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CouchbaseLiteWrapperDemo;
+			packageProductDependencies = (
+				ED2D0554272741EF0020DFDF /* CouchbaseLiteWrapper */,
+			);
+			productName = Stripe;
+			productReference = EDABFFB2269E3FA3008F1806 /* CouchbaseLiteWrapperDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDABFFAA269E3FA3008F1806 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EDABFFB1269E3FA3008F1806 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = EDABFFAD269E3FA3008F1806 /* Build configuration list for PBXProject "CouchbaseLiteWrapperDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDABFFA9269E3FA3008F1806;
+			packageReferences = (
+				ED879FCD26E91615009D704C /* XCRemoteSwiftPackageReference "couchbase-lite-wrapper-ios" */,
+			);
+			productRefGroup = EDABFFB3269E3FA3008F1806 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDABFFB1269E3FA3008F1806 /* CouchbaseLiteWrapperDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDABFFB0269E3FA3008F1806 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDABFFC2269E3FA4008F1806 /* LaunchScreen.storyboard in Resources */,
+				EDABFFBF269E3FA4008F1806 /* Assets.xcassets in Resources */,
+				EDABFFBD269E3FA3008F1806 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDABFFAE269E3FA3008F1806 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB2413426B35B8600FC5480 /* UserStore.swift in Sources */,
+				EDB2412F26B3597700FC5480 /* UserTableViewCell.swift in Sources */,
+				EDB2413126B359C700FC5480 /* DemoTableView.swift in Sources */,
+				EDABFFBA269E3FA3008F1806 /* DemoViewController.swift in Sources */,
+				EDABFFB6269E3FA3008F1806 /* AppDelegate.swift in Sources */,
+				EDABFFB8269E3FA3008F1806 /* SceneDelegate.swift in Sources */,
+				EDB2413626B35BAE00FC5480 /* User.swift in Sources */,
+				EDB2413826B35EAB00FC5480 /* ArrayRange.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDABFFBB269E3FA3008F1806 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDABFFBC269E3FA3008F1806 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDABFFC0269E3FA4008F1806 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDABFFC1269E3FA4008F1806 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDF1B8F426F2B63D0097DF23 /* CouchbaseLiteWrapperDemo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = CouchbaseLiteWrapperDemo;
+		};
+		EDF1B8F526F2B63D0097DF23 /* CouchbaseLiteWrapperDemo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = W443B6L497;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = "$(SRCROOT)/CouchbaseLiteWrapperDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mudflap.mudflap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Mudflap Adhoc";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = CouchbaseLiteWrapperDemo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDABFFAD269E3FA3008F1806 /* Build configuration list for PBXProject "CouchbaseLiteWrapperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF1B8F426F2B63D0097DF23 /* CouchbaseLiteWrapperDemo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = CouchbaseLiteWrapperDemo;
+		};
+		EDABFFC6269E3FA4008F1806 /* Build configuration list for PBXNativeTarget "CouchbaseLiteWrapperDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF1B8F526F2B63D0097DF23 /* CouchbaseLiteWrapperDemo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = CouchbaseLiteWrapperDemo;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED879FCD26E91615009D704C /* XCRemoteSwiftPackageReference "couchbase-lite-wrapper-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/koombea/couchbase-lite-wrapper-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED2D0554272741EF0020DFDF /* CouchbaseLiteWrapper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED879FCD26E91615009D704C /* XCRemoteSwiftPackageReference "couchbase-lite-wrapper-ios" */;
+			productName = CouchbaseLiteWrapper;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EDABFFAA269E3FA3008F1806 /* Project object */;
+}

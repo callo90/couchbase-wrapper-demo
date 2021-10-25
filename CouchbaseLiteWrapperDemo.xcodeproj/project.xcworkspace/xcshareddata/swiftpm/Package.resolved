@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CouchbaseLiteSwift",
+        "repositoryURL": "https://github.com/couchbase/couchbase-lite-ios.git",
+        "state": {
+          "branch": null,
+          "revision": "862a079791dc8b269bfd44e227c43eb35c1a3cdb",
+          "version": "2.8.4"
+        }
+      },
+      {
+        "package": "CouchbaseLiteWrapper",
+        "repositoryURL": "https://github.com/koombea/couchbase-lite-wrapper-ios.git",
+        "state": {
+          "branch": null,
+          "revision": "8a89afd4b59a87055c45a553230af305b7c6b075",
+          "version": "1.0.1"
+        }
+      },
+      {
+        "package": "ObjectMapper",
+        "repositoryURL": "https://github.com/tristanhimmelman/ObjectMapper.git",
+        "state": {
+          "branch": null,
+          "revision": "0b96a734de3ea1c87374ae677064f86adb0716ec",
+          "version": "4.2.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
